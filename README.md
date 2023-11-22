@@ -1,4 +1,4 @@
-#About project
+# About project
 This project was inspired by my previous project: 
 [https://github.com/Marinarium/brainwars-css](https://github.com/Marinarium/brainwars-css). 
 I wanted to take one of the games from the project and implement it separately.
