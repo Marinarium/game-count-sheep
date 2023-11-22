@@ -1,0 +1,16 @@
+.link {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 200ms;
+    user-select: none;
+}
+
+.link--active {
+    color: var(--color-secondary);
+    cursor: default;
+}
+
+.link:hover {
+    color: var(--color-accent);
+}
