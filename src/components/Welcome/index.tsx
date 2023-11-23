@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from "../UI/Button";
+import {Button} from "../Button";
 import cl from './styles.module.scss';
 
 const Welcome = () => {

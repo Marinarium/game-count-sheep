@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from "../../components/UI/Button";
+import {Button} from "../../components/Button";
 import { useTheme } from '../../hooks/useTheme';
 import cl from './styles.module.scss';
 
