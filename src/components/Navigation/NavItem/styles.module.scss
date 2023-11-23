@@ -1,16 +1,16 @@
 .link {
-    color: var(--color-text);
+    color: var(--color-bg-inverted);
     text-decoration: none;
     font-size: 18px;
     transition: color 200ms;
     user-select: none;
-}
 
-.link--active {
-    color: var(--color-secondary);
-    cursor: default;
-}
+    &--active {
+        color: var(--color-secondary);
+        cursor: default;
+    }
 
-.link:hover {
-    color: var(--color-accent);
+    &:not(.link--active):hover {
+        color: var(--color-accent);
+    }
 }

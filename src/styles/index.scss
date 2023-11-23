@@ -5,10 +5,15 @@
 
 
 .app {
-  background-color: var(--color-bg);
-  color: var(--color-bg-inverted);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-bg-inverted);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-main);
+    font-size: var(--font-size);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    line-height: var(--line-height);
 }

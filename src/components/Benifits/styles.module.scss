@@ -1,0 +1,32 @@
+.section {
+   max-width: 1285px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.lead {
+    font-family: var(--font-family-accent);
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.list {
+    list-style: none;
+    column-count: 2;
+    column-gap: 65px;
+}
+
+.item {
+    margin-bottom: 20px;
+    line-height: 1.4;
+
+    strong {
+        font-weight: 700;
+        color: var(--color-accent);
+        font-size: 20px;
+    }
+}

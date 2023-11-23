@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    padding: var(--padding-wrap);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 1.4;
+
+    span {
+        color: var(--color-accent);
+    }
+}
+
+.link {
+    font-family: var(--font-family-accent);
+    color: var(--color-bg-inverted);
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 740px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-family: var(--font-family-accent);
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.rule {
+    margin-bottom: 30px;
+    max-width: 620px;
+}

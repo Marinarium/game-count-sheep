@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Layout from "./Layout";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import NotFound from "../pages/NotFound";
+import Home from "../pages/home";
+import About from "../pages/about";
 import classNames from 'classnames';
 import {useTheme} from "../hooks/useTheme";
-import Profile from '../pages/Profile';
+import Preferences from "../pages/preferences";
+import NotFound from "../pages/not-found";
 
 function App() {
   const { theme } = useTheme();
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
-          <Route path="/profile" element={<Profile/>}/>
+          <Route path="/preferences" element={<Preferences/>}/>
           <Route path="*" element={<NotFound/>}/>
         </Route>
       </Routes>

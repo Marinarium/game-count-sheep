@@ -7,10 +7,10 @@ interface ILogo {
   className?: string,
 }
 
-export const Logo: FC<ILogo>  = ({className=''}) => {
+export const Logo: FC<ILogo> = ({className = ''}) => {
   return (
-    <div>
-      <Link className={classNames(cl.logo, className)} to='/'>Count Sheep!</Link>
-    </div>
+    <Link className={classNames(cl.logo, className)} to='/'>
+      <img src={'/assets/img/logo.svg'} alt="Logo of Count Sheep"/>
+    </Link>
   );
 };

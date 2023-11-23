@@ -17,18 +17,21 @@
 }
 
 .primary {
-    padding: 5px 10px;
+    padding: 8px 10px;
     background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
     border-radius: 5px;
     color: var(--color-text);
-    min-width: 100px;
+    min-width: 150px;
     font-size: 18px;
+    box-shadow: 0 0 10px rgba(160, 47, 129, 0.7);
+    line-height: 1;
+    font-weight: 500;
 
     &:hover {
         background-color: var(--color-primary-hovered);
         border-color: var(--color-primary-hovered);
-        color: var(--color-text);
+        box-shadow: 0 0 15px var(--color-primary-hovered);
     }
 }
 
@@ -42,7 +45,7 @@
     font-size: 18px;
 
     &:hover {
-        border-color: var(--color-accent);
-        color: var(--color-accent);
+        border-color: var(--color-primary-hovered);
+        color: var(--color-primary-hovered);
     }
 }

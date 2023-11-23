@@ -1,0 +1,10 @@
+.about {
+    background-image: url("about-bg.png");
+    background-position: right bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0 20px;
+}

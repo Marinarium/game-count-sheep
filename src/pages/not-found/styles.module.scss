@@ -1,0 +1,19 @@
+.notFound {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: -20px;
+}
+
+.title {
+    font-family: var(--font-family-accent);
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 36px;
+}
