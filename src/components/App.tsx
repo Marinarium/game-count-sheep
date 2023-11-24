@@ -7,6 +7,7 @@ import classNames from 'classnames';
 import {useTheme} from "../hooks/useTheme";
 import Preferences from "../pages/preferences";
 import NotFound from "../pages/not-found";
+import Game from "../pages/game";
 
 function App() {
   const { theme } = useTheme();
@@ -18,6 +19,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/preferences" element={<Preferences/>}/>
+          <Route path="/game" element={<Game/>}/>
           <Route path="*" element={<NotFound/>}/>
         </Route>
       </Routes>

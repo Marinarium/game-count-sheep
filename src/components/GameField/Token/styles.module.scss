@@ -1,0 +1,12 @@
+.token {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    box-shadow: 3px 4px 4px rgba(71, 43, 131, 0.62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    user-select: none;
+}

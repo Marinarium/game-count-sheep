@@ -1,0 +1,18 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.field {
+    min-width: 888px;
+    min-height: 475px;
+    background-color: var(--transparent-wrapper);
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

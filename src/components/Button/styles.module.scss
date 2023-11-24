@@ -2,6 +2,10 @@
     cursor: pointer;
     user-select: none;
     transition-duration: 200ms;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    border-radius: 5px;
 }
 
 .clear {
@@ -20,13 +24,9 @@
     padding: 8px 10px;
     background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
-    border-radius: 5px;
     color: var(--color-text);
     min-width: 150px;
-    font-size: 18px;
-    box-shadow: 0 0 10px rgba(160, 47, 129, 0.7);
-    line-height: 1;
-    font-weight: 500;
+    box-shadow: 0 0 10px var(--color-primary-shadow);
 
     &:hover {
         background-color: var(--color-primary-hovered);
@@ -39,7 +39,6 @@
     padding: 5px 10px;
     background: none;
     border: 1px solid var(--color-primary);
-    border-radius: 5px;
     color: var(--color-primary);
     min-width: 100px;
     font-size: 18px;
@@ -49,3 +48,62 @@
         color: var(--color-primary-hovered);
     }
 }
+
+.big {
+    font-size: 36px;
+    min-width: 160px;
+    padding: 10px 50px;
+}
+
+.secondary {
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    color: var(--color-text);
+    box-shadow: 0 0 5px rgba(148, 115, 218, 0.7);
+
+    &:hover {
+        background-color: var(--color-secondary-hovered);
+        border-color: var(--color-secondary-hovered);
+        box-shadow: 0 0 15px rgba(148, 115, 218, 0.7);
+    }
+}
+
+.tomato {
+    background-color: #DD4B70;
+    border: 1px solid #DD4B70;
+    color: var(--color-text);
+    box-shadow: 0 0 5px rgba(221, 75, 112, 0.7);
+
+    &:hover {
+        background-color: #f65e83;
+        border-color: #f65e83;
+        box-shadow: 0 0 15px rgba(221, 75, 112, 0.7);
+    }
+}
+
+.orange {
+    background-color: #FF7F5C;
+    border: 1px solid #FF7F5C;
+    color: var(--color-text);
+    box-shadow: 0 0 5px rgba(255, 127, 92, 0.7);
+
+    &:hover {
+        background-color: #ff9a5c;
+        border-color: #ff9a5c;
+        box-shadow: 0 0 15px rgba(255, 127, 92, 0.7);
+    }
+}
+
+.yellow {
+    background-color: #FFBB54;
+    border: 1px solid #FFBB54;
+    color: var(--color-text);
+    box-shadow: 0 0 5px rgba(255, 187, 84, 0.7);
+
+    &:hover {
+        background-color: #ffcf54;
+        border-color: #ffcf54;
+        box-shadow: 0 0 15px rgba(255, 187, 84, 0.7);
+    }
+}
+

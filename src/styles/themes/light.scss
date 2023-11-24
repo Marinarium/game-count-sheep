@@ -1,13 +1,16 @@
 .app.light {
     --color-bg: #F9F9F9;
-    --color-bg-inverted: #240D62;
+    --color-bg-inverted: #4A4453;
     --color-text: #F9F9F9;
+    --transparent-wrapper: rgba(249, 249, 249, 0.1);
 
-    --color-primary: #A02F81;
-    --color-primary-hovered: #d24184;
+    --color-primary: #472B83;
+    --color-primary-hovered: #5833a1;
+    --color-primary-shadow: rgba(71, 43, 131, 0.7);
 
     --color-secondary: #9473DA;
     --color-secondary-hovered: #bca2f8;
+    --color-secondary-shadow: rgba(71, 43, 131, 0.62);
 
-    --color-accent: #FFBD59;
+    --color-accent: #f3a423;
 }
